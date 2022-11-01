@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_find"
+        android:icon="@mipmap/ic_fins"
+        android:title="发现" />
+    <item
+        android:id="@+id/fragment_podcast"
+        android:icon="@mipmap/ic_mine"
+        android:title="播客" />
+    <item
+        android:id="@+id/fragment_mine"
+        android:icon="@mipmap/ic_home"
+        android:title="我的" />
+    <item
+        android:id="@+id/fragment_attention"
+        android:icon="@mipmap/ic_msg"
+        android:title="关注" />
+    <item
+        android:id="@+id/fragment_community"
+        android:icon="@mipmap/ic_category"
+        android:title="社区" />
+</menu>

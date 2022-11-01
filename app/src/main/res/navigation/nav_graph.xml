@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_find"
+    android:id="@+id/nav_graph">
+
+
+    <fragment
+        android:id="@+id/fragment_find"
+        android:name="com.example.imitative_music.fragment.fragment_find"
+        android:label="fragment_find"
+        tools:layout="@layout/fragment_layout_find"
+        />
+    <fragment
+        android:id="@+id/fragment_podcast"
+        android:name="com.example.imitative_music.fragment.fragment_podcast"
+        android:label="fragment_podcast"
+        tools:layout="@layout/fragment_layout_podcast"
+        />
+    <fragment
+        android:id="@+id/fragment_mine"
+        android:name="com.example.imitative_music.fragment.fragment_mine"
+        android:label="fragment_mine"
+        tools:layout="@layout/fragment_layout_mine"
+        />
+
+    <fragment
+        android:id="@+id/fragment_attention"
+        android:name="com.example.imitative_music.fragment.fragment_attention"
+        android:label="fragment_attention"
+        tools:layout="@layout/fragment_layout_attention"
+        />
+
+    <fragment
+        android:id="@+id/fragment_community"
+        android:name="com.example.imitative_music.fragment.fragment_community"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_layout_community"
+        />
+
+
+
+</navigation>
