@@ -36,11 +36,5 @@
         app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="342dp"
-        android:layout_height="73dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="384dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
