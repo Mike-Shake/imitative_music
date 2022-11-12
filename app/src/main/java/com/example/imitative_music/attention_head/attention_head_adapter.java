@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.imitative_music.R;
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 
 public class attention_head_adapter extends RecyclerView.Adapter<attention_head_adapter.ViewHolder> {
 
@@ -32,7 +34,7 @@ public class attention_head_adapter extends RecyclerView.Adapter<attention_head_
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         attention_head_class attention_head_classes=mlist.get(position);
-        holder.imageView.setImageResource(attention_head_classes.getImageId());
+        holder.circleImageView.setImageResource(attention_head_classes.getImageId());
         holder.textView.setText(attention_head_classes.getName());
     }
 
@@ -40,14 +42,13 @@ public class attention_head_adapter extends RecyclerView.Adapter<attention_head_
     public int getItemCount() {
         return mlist.size();
     }
-
     static class ViewHolder extends RecyclerView.ViewHolder{
-        ImageView imageView;
+        CircleImageView circleImageView;
         TextView textView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView=(ImageView) itemView.findViewById(R.id.attention_recyclerview_img);
+            circleImageView=(CircleImageView) itemView.findViewById(R.id.attention_recyclerview_img);
             textView=(TextView) itemView.findViewById(R.id.attention_recyclerview_name);
         }
     }

@@ -42,6 +42,7 @@ public class fragment_find extends Fragment {
         //轮播图链表的添加
         image_List = new ArrayList<>();
         initData();
+
         //轮播图的适配
         mBanner =  view.findViewById(R.id.find_banner);
         mBanner.setAdapter(new ImageAdapter(getActivity(), image_List));
@@ -86,10 +87,7 @@ public class fragment_find extends Fragment {
         find_below_recycleViews=new find_below_recycleView_class("游戏专区",R.mipmap.radio_widget_icn_new);
         mlist.add(find_below_recycleViews);
     }
-
-
     private void initView(){
-
     }
 
     private void initData(){

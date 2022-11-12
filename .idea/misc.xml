@@ -5,8 +5,16 @@
       <map>
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/drawable/dot.xml" value="0.151" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1125" />
-        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_main.xml" value="0.20168066580377575" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/drawable/round_background.xml" value="0.139" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_main.xml" value="0.26621847886098404" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_welcome.xml" value="0.24010416666666667" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/communit_1_top_item.xml" value="0.26621847886098404" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_grid_item.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_plaza.xml" value="0.16941175927517163" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_room.xml" value="0.24010416666666667" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_tablayout.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_textview.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/community_video.xml" value="0.2390625" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/find_banner_item.xml" value="0.2390625" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/find_below_loopgraph.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/find_below_loopgraph_item.xml" value="0.24010416666666667" />
@@ -15,7 +23,7 @@
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_find_loop.xml" value="0.2390625" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_find_search.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_attention.xml" value="0.24010416666666667" />
-        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_attention_item1.xml" value="0.22056159420289856" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_attention_item1.xml" value="0.20168066580377575" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_community.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_find.xml" value="0.20168066580377575" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_mine.xml" value="0.24010416666666667" />
