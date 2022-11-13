@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MyViewAdapter extends FragmentStateAdapter {
 
-    List<Fragment> fragments = new ArrayList<>();
+    List<Fragment> fragments;
 
     public MyViewAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle, List<Fragment> fragmentList) {
         super(fragmentManager, lifecycle);

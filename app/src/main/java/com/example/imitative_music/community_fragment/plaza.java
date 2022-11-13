@@ -40,7 +40,7 @@ public class plaza extends Fragment {
     private void initView() {
 
         mlist=new ArrayList<>();
-        item_class classes=new item_class(R.drawable.loading,"原神","999+");
+        item_class classes=new item_class(R.drawable.loading,"破防","999+");
         mlist.add(classes);
         mlist.add(classes);
         mlist.add(classes);

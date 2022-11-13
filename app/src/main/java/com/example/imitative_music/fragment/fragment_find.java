@@ -68,33 +68,33 @@ public class fragment_find extends Fragment {
     }
 
     public void init(){
-        find_below_recycleView_class find_below_recycleViews=new find_below_recycleView_class("每日推荐",R.mipmap.radio_widget_icn_new);
+        find_below_recycleView_class find_below_recycleViews=new find_below_recycleView_class("每日推荐",R.mipmap.meirituijian);
         mlist.add(find_below_recycleViews);
-        find_below_recycleView_class find_below_recycleViews1=new find_below_recycleView_class("私人FM",R.mipmap.radio_widget_icn_new);
+        find_below_recycleView_class find_below_recycleViews1=new find_below_recycleView_class("私人FM",R.mipmap.sirenfm);
         mlist.add(find_below_recycleViews1);
-        find_below_recycleViews=new find_below_recycleView_class("歌单",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("歌单",R.mipmap.find_gedan);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("排行榜",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("排行榜",R.mipmap.paihangbang);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("一歌一遇",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("一歌一遇",R.mipmap.yigeyiyu);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("数字专辑",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("数字专辑",R.mipmap.shizizhuanji);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("有声书",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("有声书",R.mipmap.youshengshu);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("关注新歌",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("关注新歌",R.mipmap.gaunzhuxinge);
         mlist.add(find_below_recycleViews);
-        find_below_recycleViews=new find_below_recycleView_class("游戏专区",R.mipmap.radio_widget_icn_new);
+        find_below_recycleViews=new find_below_recycleView_class("游戏专区",R.mipmap.youxizhuanqu);
         mlist.add(find_below_recycleViews);
     }
     private void initView(){
     }
 
     private void initData(){
-        image_List.add(new ImageBean(R.drawable.loading));
-        image_List.add(new ImageBean(R.drawable.loading));
-        image_List.add(new ImageBean(R.drawable.loading));
-        image_List.add(new ImageBean(R.drawable.loading));
-        image_List.add(new ImageBean(R.drawable.loading));
+        image_List.add(new ImageBean(R.mipmap.find_tu1));
+        image_List.add(new ImageBean(R.mipmap.find_tu2));
+        image_List.add(new ImageBean(R.mipmap.find_tu3));
+        image_List.add(new ImageBean(R.mipmap.find_tu4));
+        image_List.add(new ImageBean(R.mipmap.find_tu5));
     }
 }
