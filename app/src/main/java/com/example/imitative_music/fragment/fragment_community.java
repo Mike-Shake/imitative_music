@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.imitative_music.R;
+import com.example.imitative_music.attention.dynamic_recyclerview_class;
 import com.example.imitative_music.community_fragment.MyViewAdapter;
 import com.example.imitative_music.community_fragment.plaza;
 import com.example.imitative_music.community_fragment.room;
@@ -47,6 +48,7 @@ public class fragment_community extends Fragment {
         }).attach();
         return view;
     }
+
     private void initFragment() {
         fragmentList.add(new plaza());
         fragmentList.add(new video());

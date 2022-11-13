@@ -1,10 +1,10 @@
-package com.example.imitative_music.find_horizontal_recycleview;
+package com.example.imitative_music.attention;
 
-public class find_below_recycleView_class {
+public class attention_head_class {
     private String name;
     private int imageId;
 
-    public find_below_recycleView_class(String name, int imageId) {
+    public attention_head_class(String name, int imageId) {
         this.name = name;
         this.imageId = imageId;
     }

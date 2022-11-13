@@ -1,8 +1,6 @@
-package com.example.imitative_music.find_LoopView;
+package com.example.imitative_music.find;
 
 import android.content.Context;
-import android.media.Image;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

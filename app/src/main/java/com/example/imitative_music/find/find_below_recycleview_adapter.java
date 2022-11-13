@@ -1,4 +1,4 @@
-package com.example.imitative_music.find_horizontal_recycleview;
+package com.example.imitative_music.find;
 
 import android.view.LayoutInflater;
 import android.view.View;

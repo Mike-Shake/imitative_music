@@ -1,4 +1,4 @@
-package com.example.imitative_music.find_LoopView;
+package com.example.imitative_music.find;
 
 public class ImageBean {
     private int imageViewID;

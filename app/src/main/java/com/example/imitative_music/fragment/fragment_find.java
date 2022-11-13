@@ -11,11 +11,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.imitative_music.MainActivity;
-import com.example.imitative_music.find_LoopView.ImageAdapter;
-import com.example.imitative_music.find_LoopView.ImageBean;
-import com.example.imitative_music.find_horizontal_recycleview.find_below_recycleView_class;
-import com.example.imitative_music.find_horizontal_recycleview.find_below_recycleview_adapter;
+import com.example.imitative_music.find.ImageAdapter;
+import com.example.imitative_music.find.ImageBean;
+import com.example.imitative_music.find.find_below_recycleView_class;
+import com.example.imitative_music.find.find_below_recycleview_adapter;
 import com.example.imitative_music.R;
 import com.youth.banner.Banner;
 import com.youth.banner.indicator.CircleIndicator;
