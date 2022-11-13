@@ -1,4 +1,4 @@
-package com.example.imitative_music.community_grid;
+package com.example.imitative_music.community;
 
 import android.view.LayoutInflater;
 import android.view.View;

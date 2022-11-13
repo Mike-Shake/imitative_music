@@ -11,11 +11,10 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.imitative_music.R;
-import com.example.imitative_music.attention.dynamic_recyclerview_class;
-import com.example.imitative_music.community_fragment.MyViewAdapter;
-import com.example.imitative_music.community_fragment.plaza;
-import com.example.imitative_music.community_fragment.room;
-import com.example.imitative_music.community_fragment.video;
+import com.example.imitative_music.community.MyViewAdapter;
+import com.example.imitative_music.community.plaza;
+import com.example.imitative_music.community.room;
+import com.example.imitative_music.community.video;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 

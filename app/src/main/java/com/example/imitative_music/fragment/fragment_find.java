@@ -16,6 +16,8 @@ import com.example.imitative_music.find.ImageBean;
 import com.example.imitative_music.find.find_below_recycleView_class;
 import com.example.imitative_music.find.find_below_recycleview_adapter;
 import com.example.imitative_music.R;
+import com.example.imitative_music.find.tuijian_Bean;
+import com.example.imitative_music.find.tuijiangedan_Adapter;
 import com.youth.banner.Banner;
 import com.youth.banner.indicator.CircleIndicator;
 
@@ -24,23 +26,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class fragment_find extends Fragment {
+    RecyclerView recyclerView,recyclerView2;
+
     //轮播图的使用
     private Banner mBanner;
     private List<ImageBean> image_List = new ArrayList<>();
 
     //轮播图下方是横向recyclerview的实现
-    RecyclerView recyclerView;
     find_below_recycleview_adapter adapter;
     private List<find_below_recycleView_class> mlist;
+
+    //推荐歌单
+    tuijiangedan_Adapter adapter2;
+    private List<tuijian_Bean> tuijian_beanList;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_layout_find, container, false);
-
-        //轮播图链表的添加
+        //轮播图的添加
         image_List = new ArrayList<>();
-        initData();
+        //轮播图下方是横向recyclerview的实现
+        mlist = new ArrayList<>();
+        tuijian_beanList=new ArrayList<>();
+
+        init();
 
         //轮播图的适配
         mBanner =  view.findViewById(R.id.find_banner);
@@ -51,17 +61,23 @@ public class fragment_find extends Fragment {
         mBanner.setIndicator(new CircleIndicator(getActivity()));
         mBanner.start();
 
-
-
-        //轮播图下方是横向recyclerview的实现
-        mlist = new ArrayList<>();
-        init();
+        //横的
         recyclerView = view.findViewById(R.id.find_below_recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
         adapter = new find_below_recycleview_adapter(mlist);
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         recyclerView.setAdapter(adapter);
+
+        // 推荐歌单
+        recyclerView2=view.findViewById(R.id.recyclerview2);
+        LinearLayoutManager layoutManager1=new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(layoutManager1);
+        adapter2=new tuijiangedan_Adapter(tuijian_beanList);
+        layoutManager1.setOrientation(LinearLayoutManager.HORIZONTAL);
+        recyclerView.setAdapter(adapter2);
+
+
         return view;
 //        return inflater.inflate(R.layout.fragment_layout_find, container, false);
     }
@@ -85,15 +101,26 @@ public class fragment_find extends Fragment {
         mlist.add(find_below_recycleViews);
         find_below_recycleViews=new find_below_recycleView_class("游戏专区",R.mipmap.youxizhuanqu);
         mlist.add(find_below_recycleViews);
-    }
-    private void initView(){
-    }
 
-    private void initData(){
         image_List.add(new ImageBean(R.mipmap.find_tu1));
         image_List.add(new ImageBean(R.mipmap.find_tu2));
         image_List.add(new ImageBean(R.mipmap.find_tu3));
         image_List.add(new ImageBean(R.mipmap.find_tu4));
         image_List.add(new ImageBean(R.mipmap.find_tu5));
+
+        tuijian_Bean tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
+        tuijian_beanList.add(tuijian_bean);
+        tuijian_beanList.add(tuijian_bean);
+        tuijian_beanList.add(tuijian_bean);
+        tuijian_beanList.add(tuijian_bean);
+
+//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
+//        tuijian_beanList.add(tuijian_bean);
+//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
+//        tuijian_beanList.add(tuijian_bean);
+//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
+//        tuijian_beanList.add(tuijian_bean);
     }
+
+
 }

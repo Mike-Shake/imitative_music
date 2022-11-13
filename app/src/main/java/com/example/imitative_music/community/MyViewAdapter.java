@@ -1,14 +1,12 @@
-package com.example.imitative_music.community_fragment;
+package com.example.imitative_music.community;
 
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MyViewAdapter extends FragmentStateAdapter {

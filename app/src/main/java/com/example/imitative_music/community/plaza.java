@@ -1,4 +1,4 @@
-package com.example.imitative_music.community_fragment;
+package com.example.imitative_music.community;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.imitative_music.R;
-import com.example.imitative_music.community_grid.item_Adapter;
-import com.example.imitative_music.community_grid.item_class;
 
 import java.util.ArrayList;
 import java.util.List;

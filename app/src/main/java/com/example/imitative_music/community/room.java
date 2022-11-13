@@ -1,4 +1,4 @@
-package com.example.imitative_music.community_fragment;
+package com.example.imitative_music.community;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package com.example.imitative_music.community_grid;
+package com.example.imitative_music.community;
 
 public class item_class {
     private int ImageID;

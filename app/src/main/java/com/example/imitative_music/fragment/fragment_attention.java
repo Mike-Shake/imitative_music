@@ -40,6 +40,7 @@ public class fragment_attention extends Fragment {
         recyclerview2_list = new ArrayList<>();
         init();
 
+        //我的好友的添加
         recyclerView = view.findViewById(R.id.attention_recyclerview1);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
@@ -47,6 +48,7 @@ public class fragment_attention extends Fragment {
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         recyclerView.setAdapter(adapter);
 
+        //我的好友动态的添加
         recyclerView2 = view.findViewById(R.id.attention_recyclerview2);
         LinearLayoutManager layoutManager1 = new LinearLayoutManager(getActivity());
         recyclerView2.setLayoutManager(layoutManager1);
