@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.imitative_music.attention.attention_head_adapter;
+import com.example.imitative_music.attention.dynamic_Adapter;
 import com.example.imitative_music.find.ImageAdapter;
 import com.example.imitative_music.find.ImageBean;
 import com.example.imitative_music.find.find_below_recycleView_class;
@@ -30,7 +32,7 @@ public class fragment_find extends Fragment {
 
     //轮播图的使用
     private Banner mBanner;
-    private List<ImageBean> image_List = new ArrayList<>();
+    private List<ImageBean> image_List ;
 
     //轮播图下方是横向recyclerview的实现
     find_below_recycleview_adapter adapter;
@@ -48,6 +50,7 @@ public class fragment_find extends Fragment {
         image_List = new ArrayList<>();
         //轮播图下方是横向recyclerview的实现
         mlist = new ArrayList<>();
+        //推荐歌单的实现
         tuijian_beanList=new ArrayList<>();
 
         init();
@@ -63,20 +66,19 @@ public class fragment_find extends Fragment {
 
         //横的
         recyclerView = view.findViewById(R.id.find_below_recyclerview);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
         adapter = new find_below_recycleview_adapter(mlist);
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         recyclerView.setAdapter(adapter);
 
         // 推荐歌单
-        recyclerView2=view.findViewById(R.id.recyclerview2);
-        LinearLayoutManager layoutManager1=new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(layoutManager1);
+        recyclerView2=view.findViewById(R.id.find_recyclerview2);
+        LinearLayoutManager layoutManager1=new LinearLayoutManager(getContext());
+        recyclerView2.setLayoutManager(layoutManager1);
         adapter2=new tuijiangedan_Adapter(tuijian_beanList);
         layoutManager1.setOrientation(LinearLayoutManager.HORIZONTAL);
-        recyclerView.setAdapter(adapter2);
-
+        recyclerView2.setAdapter(adapter2);
 
         return view;
 //        return inflater.inflate(R.layout.fragment_layout_find, container, false);

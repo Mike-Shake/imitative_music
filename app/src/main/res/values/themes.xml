@@ -12,5 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- 设置状态栏为透明 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 设置导航栏为透明 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 根据系统窗口(如状态栏)调整视图布局。当为true，则调整此视图的填充，为系统窗口留下空间。仅当此视图位于非嵌入活动中时才会生效 -->
+        <item name="android:fitsSystemWindows">true</item>
     </style>
 </resources>

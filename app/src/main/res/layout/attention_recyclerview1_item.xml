@@ -104,7 +104,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="3dp"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@mipmap/zhuanfa"
+
         app:layout_constraintTop_toBottomOf="@+id/neirong"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -113,7 +113,7 @@
         android:layout_width="18dp"
         android:layout_height="16dp"
         android:layout_marginTop="5dp"
-
+        android:background="@mipmap/zhuanfa"
         app:layout_constraintStart_toStartOf="@+id/tupian1"
         app:layout_constraintTop_toBottomOf="@+id/tupian1"
         tools:srcCompat="@tools:sample/avatars" />

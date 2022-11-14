@@ -31,12 +31,13 @@
             android:id="@+id/img_head"
             android:layout_width="@dimen/dp_80"
             android:layout_height="@dimen/dp_80"
-            android:layout_margin="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
             android:background="@mipmap/mine_touxaing"
             android:elevation="@dimen/dp_8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
 
         <!--            <ImageView-->
         <!--                android:id="@+id/img_head"-->
@@ -109,11 +110,10 @@
         <include
             android:id="@+id/include"
             layout="@layout/mine_layout_item2"
-            android:layout_width="390dp"
-            android:layout_height="197dp"
+            android:layout_width="349dp"
+            android:layout_height="194dp"
+            android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view_nike" />
 
         <View

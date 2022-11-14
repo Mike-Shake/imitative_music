@@ -10,10 +10,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/attention_recyclerview1"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_100"
-        android:layout_marginTop="16dp"
+        android:layout_height="98dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,12 +26,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/attention_recyclerview2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="144dp"
+        android:layout_width="414dp"
+        android:layout_height="604dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/attention_recyclerview1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
