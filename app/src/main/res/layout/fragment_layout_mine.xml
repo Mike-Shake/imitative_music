@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:background="#FFFFFE"
     android:scrollbars="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -110,9 +111,9 @@
         <include
             android:id="@+id/include"
             layout="@layout/mine_layout_item2"
-            android:layout_width="349dp"
-            android:layout_height="194dp"
-            android:layout_marginEnd="4dp"
+            android:layout_width="345dp"
+            android:layout_height="208dp"
+            android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view_nike" />
 
@@ -171,15 +172,14 @@
             binding:tabSelectedTextColor="@color/colorAccent"
             binding:tabTextColor="@color/black_text" />
 
-        <!--            <androidx.viewpager2.widget.ViewPager2-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="@dimen/dp_0"-->
-        <!--                android:layout_margin="@dimen/dp_16"-->
-        <!--                android:id="@+id/viewpager2"-->
-        <!--                android:orientation="vertical"-->
-        <!--                app:layout_constraintTop_toBottomOf="@id/tabLayout"-->
-        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--                />-->
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_margin="@dimen/dp_16"
+            android:id="@+id/viewpager2"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/tabLayout"
+            app:layout_constraintBottom_toBottomOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
