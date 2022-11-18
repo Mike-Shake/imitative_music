@@ -7,7 +7,7 @@
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1125" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/drawable/round_background.xml" value="0.139" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/DrawMenuFragment.xml" value="0.57625" />
-        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_main.xml" value="0.26621847886098404" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_main.xml" value="0.16941175927517163" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/activity_welcome.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/attention_recyclerview1.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/attention_recyclerview1_item.xml" value="0.4033613316075515" />
@@ -35,17 +35,23 @@
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_find_search.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_attention.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_attention_item1.xml" value="0.8873949295366135" />
-        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_community.xml" value="0.24010416666666667" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_community.xml" value="0.1" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_find.xml" value="0.4033613316075515" />
-        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_mine.xml" value="0.24010416666666667" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_mine.xml" value="0.20168066580377575" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/fragment_layout_podcast.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/item.xml" value="0.5405041843541191" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/item2.xml" value="0.2390625" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/item_song_bottom_bar.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/mine_chuangjiangedan.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/mine_create_list_item.xml" value="0.4033613316075515" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/mine_gedanzhushou.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/mine_layout_item2.xml" value="0.26621847886098404" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/mine_shoucanggedan.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/music.xml" value="0.6050419974113272" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/podcasd_story.xml" value="0.2390625" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/podcast_recommend.xml" value="0.24010416666666667" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/text.xml" value="0.2390625" />
+        <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/text2.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/layout/xml.xml" value="0.26621847886098404" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/menu/menu.xml" value="0.24010416666666667" />
         <entry key="..\:/DerryProject/imitative_music/app/src/main/res/menu/menu_draw.xml" value="0.24010416666666667" />
