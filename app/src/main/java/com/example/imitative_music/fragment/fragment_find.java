@@ -110,18 +110,24 @@ public class fragment_find extends Fragment {
         image_List.add(new ImageBean(R.mipmap.find_tu4));
         image_List.add(new ImageBean(R.mipmap.find_tu5));
 
-        tuijian_Bean tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
-        tuijian_beanList.add(tuijian_bean);
-        tuijian_beanList.add(tuijian_bean);
-        tuijian_beanList.add(tuijian_bean);
-        tuijian_beanList.add(tuijian_bean);
 
-//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
-//        tuijian_beanList.add(tuijian_bean);
-//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
-//        tuijian_beanList.add(tuijian_bean);
-//        tuijian_bean=new tuijian_Bean("2022全网最火超好听热门歌曲",R.drawable.loading);
-//        tuijian_beanList.add(tuijian_bean);
+        tuijian_Bean tuijian_bean1=new tuijian_Bean("网易10+热评史上最好听的",R.mipmap.a);
+        tuijian_beanList.add(tuijian_bean1);
+        tuijian_Bean tuijian_bean2=new tuijian_Bean("2022全网最火超好听热门歌曲",R.mipmap.b);
+        tuijian_beanList.add(tuijian_bean2);
+
+        tuijian_Bean tuijian_bean3=new tuijian_Bean("旋律必听",R.mipmap.c);
+        tuijian_beanList.add(tuijian_bean3);
+
+        tuijian_Bean tuijian_bean4 = new tuijian_Bean("别灰心，普普通通的你也值得被万般宠溺", R.mipmap.d);
+        tuijian_beanList.add(tuijian_bean4);
+
+        tuijian_Bean tuijian_bean5 = new tuijian_Bean("英文歌天花板", R.mipmap.e);
+        tuijian_beanList.add(tuijian_bean5);
+
+        tuijian_Bean tuijian_bean6 = new tuijian_Bean("一些听了会开心快乐的歌", R.mipmap.e);
+        tuijian_beanList.add(tuijian_bean6);
+
     }
 
 

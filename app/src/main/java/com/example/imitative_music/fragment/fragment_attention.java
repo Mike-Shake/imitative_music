@@ -75,29 +75,34 @@ public class fragment_attention extends Fragment {
         attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
         mlist.add(attention_head_classes);
 
-        dynamic_recyclerview_class dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+        dynamic_recyclerview_class dynamic_recyclerview_classes = new dynamic_recyclerview_class("雾与晨的杂货店",
+                "Ta推荐的歌曲乐评很精彩", "无人问津的角落总是开满鲜花",
+                R.mipmap.mine_touxaing, R.mipmap.a1, R.mipmap.a2);
         recyclerview2_list.add(dynamic_recyclerview_classes);
-        dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+
+        dynamic_recyclerview_classes = new dynamic_recyclerview_class("乐音乐VIP",
+                "音乐品味相似75%的人用户看过", "随机抽一个单身的人告诉哥单身的好处",
+                R.mipmap.t1, R.mipmap.a3, R.mipmap.a4);
         recyclerview2_list.add(dynamic_recyclerview_classes);
-        dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+
+        dynamic_recyclerview_classes = new dynamic_recyclerview_class("快乐南瓜",
+                "根据你的二度好友推荐", "发点开心的",
+                R.mipmap.t2, R.mipmap.d1, R.mipmap.d2);
         recyclerview2_list.add(dynamic_recyclerview_classes);
-        dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+
+        dynamic_recyclerview_classes = new dynamic_recyclerview_class("甜筒指南",
+                "歌手薛之谦的热歌讨论", "叮咚学习方法已送达",
+                R.mipmap.t3, R.mipmap.d3, R.mipmap.d4);
         recyclerview2_list.add(dynamic_recyclerview_classes);
-        dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+
+        dynamic_recyclerview_classes = new dynamic_recyclerview_class("_厌烦一切",
+                "Ta推荐了林俊杰的新歌", "好消息是要回家了",
+                R.mipmap.t4, R.mipmap.d5, R.mipmap.d6);
         recyclerview2_list.add(dynamic_recyclerview_classes);
-        dynamic_recyclerview_classes = new dynamic_recyclerview_class("恋的忧伤日记",
-                "Ta推荐了林俊杰的新歌", "别害怕有我",
-                R.mipmap.mine_touxaing, R.drawable.loading, R.drawable.loading);
+
+        dynamic_recyclerview_classes = new dynamic_recyclerview_class("我的忧伤日记",
+                "Ta推荐了毛不易的新歌", "呜呜呜，写不完",
+                R.mipmap.t5, R.drawable.loading, R.drawable.loading);
         recyclerview2_list.add(dynamic_recyclerview_classes);
     }
 

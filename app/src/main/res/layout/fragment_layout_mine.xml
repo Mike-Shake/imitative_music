@@ -1,170 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:binding="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFE"
-    android:fillViewport="true"
-    android:scrollbars="vertical">
+    android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/grays_10">
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
 
-        <View
-            android:id="@+id/view_nike"
+        <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_0"
-            android:layout_marginTop="@dimen/dp_40"
-            android:background="#ffffff"
-            android:padding="@dimen/dp_24"
-            android:paddingBottom="@dimen/dp_24"
-            app:layout_constraintBottom_toBottomOf="@id/tv_follow"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/img_head"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <androidx.constraintlayout.utils.widget.ImageFilterView
-            android:id="@+id/img_head"
-            android:layout_width="@dimen/dp_80"
-            android:layout_height="@dimen/dp_80"
-            android:layout_marginTop="@dimen/dp_20"
-            android:background="@mipmap/mine_touxaing"
-            android:elevation="@dimen/dp_8"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:roundPercent="1" />
+            android:layout_height="match_parent"
+            app:contentScrim="#DAD5D5"
+            app:layout_scrollFlags="scroll">
 
 
-        <!--            <ImageView-->
-        <!--                android:id="@+id/img_head"-->
-        <!--                android:layout_width="@dimen/dp_80"-->
-        <!--                android:layout_height="@dimen/dp_80"-->
-        <!--                android:background="@drawable/loading"-->
-        <!--                android:layout_margin="@dimen/dp_16"-->
-        <!--                android:elevation="@dimen/dp_8"-->
-        <!--                app:layout_constraintStart_toStartOf="parent"-->
-        <!--                app:layout_constraintEnd_toEndOf="parent"-->
-        <!--                app:layout_constraintTop_toTopOf="parent"-->
-        <!--                />-->
-
-        <ImageView
-            android:layout_width="@dimen/dp_40"
-            android:layout_height="@dimen/dp_20"
-            android:layout_marginStart="@dimen/dp_5"
-            android:background="@mipmap/vipdengji"
-            app:layout_constraintBottom_toBottomOf="@id/tv_nickname"
-            app:layout_constraintStart_toEndOf="@id/tv_nickname" />
-
-        <TextView
-            android:id="@+id/tv_nickname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/dp_8"
-            android:text="小狐狸"
-            android:textColor="@color/black"
-            android:textSize="@dimen/sp_18"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/img_head" />
-
-        <TextView
-            android:id="@+id/tv_follow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/dp_16"
-            android:paddingBottom="@dimen/dp_8"
-            android:text="1 粉丝"
-            android:textColor="@color/grays_66"
-            android:textSize="@dimen/sp_14"
-            app:layout_constraintEnd_toStartOf="@id/tv_fans"
-            app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
-
-        <TextView
-            android:id="@+id/tv_fans"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1 关注"
-            android:textColor="@color/grays_66"
-            android:textSize="@dimen/sp_14"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
-
-        <TextView
-            android:id="@+id/tv_level"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dp_16"
-            android:text="Lv.8"
-            android:textColor="@color/grays_66"
-            android:textSize="@dimen/sp_14"
-            app:layout_constraintStart_toEndOf="@id/tv_fans"
-            app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
+            <!--    <androidx.core.widget.NestedScrollView-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="match_parent"-->
+            <!--        android:background="#FFFFFE"-->
+            <!--        android:fillViewport="true"-->
+            <!--        android:scrollbars="vertical">-->
 
 
-        <include
-            android:id="@+id/include"
-            layout="@layout/mine_layout_item2"
-            android:layout_width="345dp"
-            android:layout_height="208dp"
-            android:layout_marginEnd="28dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view_nike" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grays_10">
 
-        <View
-            android:id="@+id/view_like_item"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_65"
-            android:layout_margin="@dimen/dp_16"
-            android:background="#ffffff"
-            app:layout_constraintTop_toBottomOf="@id/include" />
+                <View
+                    android:id="@+id/view_nike"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_marginTop="@dimen/dp_40"
+                    android:background="#ffffff"
+                    android:padding="@dimen/dp_24"
+                    android:paddingBottom="@dimen/dp_24"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_follow"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/img_head"
+                    app:layout_constraintVertical_bias="0.0" />
 
-        <ImageView
-            android:id="@+id/img_cover"
-            android:layout_width="@dimen/dp_45"
-            android:layout_height="@dimen/dp_45"
-            android:layout_marginStart="@dimen/dp_16"
-            android:background="@mipmap/minr_gedantu"
-            app:layout_constraintBottom_toBottomOf="@id/view_like_item"
-            app:layout_constraintStart_toStartOf="@id/view_like_item"
-            app:layout_constraintTop_toTopOf="@id/view_like_item" />
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/img_head"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_80"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:background="@mipmap/mine_touxaing"
+                    android:elevation="@dimen/dp_8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:roundPercent="1" />
 
-        <TextView
-            android:id="@+id/tv_introduction"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dp_8"
-            android:text="我喜欢的音乐"
-            android:textColor="@color/black"
-            android:textSize="@dimen/sp_16"
-            app:layout_constraintBottom_toTopOf="@id/tv_count"
-            app:layout_constraintStart_toEndOf="@id/img_cover"
-            app:layout_constraintTop_toTopOf="@id/view_like_item" />
 
-        <TextView
-            android:id="@+id/tv_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dp_8"
-            android:text="170首"
-            android:textColor="@color/grays_66"
-            android:textSize="@dimen/sp_12"
-            app:layout_constraintBottom_toBottomOf="@id/view_like_item"
-            app:layout_constraintStart_toEndOf="@id/img_cover"
-            app:layout_constraintTop_toBottomOf="@id/tv_introduction" />
+                <!--            <ImageView-->
+                <!--                android:id="@+id/img_head"-->
+                <!--                android:layout_width="@dimen/dp_80"-->
+                <!--                android:layout_height="@dimen/dp_80"-->
+                <!--                android:background="@drawable/loading"-->
+                <!--                android:layout_margin="@dimen/dp_16"-->
+                <!--                android:elevation="@dimen/dp_8"-->
+                <!--                app:layout_constraintStart_toStartOf="parent"-->
+                <!--                app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                app:layout_constraintTop_toTopOf="parent"-->
+                <!--                />-->
+
+                <ImageView
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_marginStart="@dimen/dp_5"
+                    android:background="@mipmap/vipdengji"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_nickname"
+                    app:layout_constraintStart_toEndOf="@id/tv_nickname" />
+
+                <TextView
+                    android:id="@+id/tv_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_8"
+                    android:text="小狐狸"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_18"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/img_head" />
+
+                <TextView
+                    android:id="@+id/tv_follow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:paddingBottom="@dimen/dp_8"
+                    android:text="1 粉丝"
+                    android:textColor="@color/grays_66"
+                    android:textSize="@dimen/sp_14"
+                    app:layout_constraintEnd_toStartOf="@id/tv_fans"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
+
+                <TextView
+                    android:id="@+id/tv_fans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 关注"
+                    android:textColor="@color/grays_66"
+                    android:textSize="@dimen/sp_14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
+
+                <TextView
+                    android:id="@+id/tv_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:text="Lv.8"
+                    android:textColor="@color/grays_66"
+                    android:textSize="@dimen/sp_14"
+                    app:layout_constraintStart_toEndOf="@id/tv_fans"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
+
+
+                <include
+                    android:id="@+id/include"
+                    layout="@layout/mine_layout_item2"
+                    android:layout_width="345dp"
+                    android:layout_height="208dp"
+                    android:layout_marginEnd="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view_nike" />
+
+                <View
+                    android:id="@+id/view_like_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_65"
+                    android:layout_margin="@dimen/dp_16"
+                    android:background="#ffffff"
+                    app:layout_constraintTop_toBottomOf="@id/include" />
+
+                <ImageView
+                    android:id="@+id/img_cover"
+                    android:layout_width="@dimen/dp_45"
+                    android:layout_height="@dimen/dp_45"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:background="@mipmap/minr_gedantu"
+                    app:layout_constraintBottom_toBottomOf="@id/view_like_item"
+                    app:layout_constraintStart_toStartOf="@id/view_like_item"
+                    app:layout_constraintTop_toTopOf="@id/view_like_item" />
+
+                <TextView
+                    android:id="@+id/tv_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_8"
+                    android:text="我喜欢的音乐"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_16"
+                    app:layout_constraintBottom_toTopOf="@id/tv_count"
+                    app:layout_constraintStart_toEndOf="@id/img_cover"
+                    app:layout_constraintTop_toTopOf="@id/view_like_item" />
+
+                <TextView
+                    android:id="@+id/tv_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_8"
+                    android:text="170首"
+                    android:textColor="@color/grays_66"
+                    android:textSize="@dimen/sp_12"
+                    app:layout_constraintBottom_toBottomOf="@id/view_like_item"
+                    app:layout_constraintStart_toEndOf="@id/img_cover"
+                    app:layout_constraintTop_toBottomOf="@id/tv_introduction" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_45"
-            android:layout_marginTop="@dimen/dp_18"
             android:background="@null"
             app:layout_constraintTop_toBottomOf="@+id/view_like_item"
             binding:tabGravity="fill"
@@ -172,69 +192,24 @@
             binding:tabMode="fixed"
             binding:tabSelectedTextColor="@color/colorAccent"
             binding:tabTextColor="@color/black_text" />
+    </com.google.android.material.appbar.AppBarLayout>
 
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager2"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_300"
+            android:layout_height="@dimen/dp_400"
             android:layout_margin="@dimen/dp_16"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tabLayout" />
 
-        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="0dp"-->
-        <!--            android:layout_marginTop="10dp"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            app:layout_constraintTop_toBottomOf="@+id/tabLayout">-->
+    </androidx.core.widget.NestedScrollView>
 
 
-        <!--            <TableLayout-->
-        <!--                android:id="@+id/mine_third_tabLayout"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="@dimen/dp_40"-->
-        <!--                app:layout_constraintEnd_toEndOf="parent"-->
-        <!--                app:layout_constraintStart_toStartOf="parent"-->
-        <!--                app:layout_constraintTop_toTopOf="parent" />-->
-
-        <!--            &lt;!&ndash;            <androidx.viewpager2.widget.ViewPager2&ndash;&gt;-->
-        <!--            &lt;!&ndash;                android:id="@+id/mine_chuangjiangegan"&ndash;&gt;-->
-        <!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-        <!--            &lt;!&ndash;                android:layout_height="@dimen/dp_150"&ndash;&gt;-->
-        <!--            &lt;!&ndash;                app:layout_constraintTop_toBottomOf="@+id/mine_third_tabLayout"&ndash;&gt;-->
-        <!--            &lt;!&ndash;                &ndash;&gt;-->
-        <!--            &lt;!&ndash;                />&ndash;&gt;-->
-
-        <!--            <fragment-->
-        <!--                android:name="com.example.imitative_music.mine.chuangjiangedan"-->
-        <!--                android:id="@+id/mine_fragment_chuangjiangedan"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="@dimen/dp_100"-->
-        <!--                app:layout_constraintStart_toStartOf="parent"-->
-        <!--                app:layout_constraintTop_toBottomOf="@+id/mine_third_tabLayout" />-->
-
-        <!--            <fragment-->
-        <!--                android:name="com.example.imitative_music.mine.shoucanggedan"-->
-        <!--                android:id="@+id/mine_fragment_shoucanggedan"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="@dimen/dp_100"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                app:layout_constraintTop_toBottomOf="@+id/mine_fragment_chuangjiangedan" />-->
-
-        <!--            <fragment-->
-        <!--                android:name="com.example.imitative_music.mine.gedanzhushou"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="@dimen/dp_100"-->
-        <!--                android:layout_marginTop="10dp"-->
-        <!--                app:layout_constraintEnd_toEndOf="parent"-->
-        <!--                app:layout_constraintStart_toStartOf="parent"-->
-        <!--                app:layout_constraintTop_toBottomOf="@+id/mine_fragment_shoucanggedan" />-->
-
-
-        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

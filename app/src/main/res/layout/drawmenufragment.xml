@@ -37,53 +37,55 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/drawer_third_zhu"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_100"
+                android:layout_height="150dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_background"
                 app:layout_constraintTop_toBottomOf="@+id/drawer_vip">
 
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/drawer_third_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="1dp"
-                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/drawer_third_3"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
+                    android:layout_marginBottom="7dp"
+                    android:src="@mipmap/z3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/drawer_third_2"
                     app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/drawer_third_3" />
+                    app:layout_constraintStart_toStartOf="@+id/drawer_third_2"
+                    app:layout_constraintTop_toBottomOf="@+id/drawer_third_2" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/drawer_third_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/drawer_third_2"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
+                    android:src="@mipmap/z2"
+                    app:layout_constraintBottom_toTopOf="@+id/drawer_third_3"
+                    app:layout_constraintEnd_toEndOf="@+id/drawer_third_1"
+                    app:layout_constraintHorizontal_bias="0.187"
+                    app:layout_constraintStart_toStartOf="@+id/drawer_third_1"
                     app:layout_constraintTop_toBottomOf="@+id/drawer_third_1" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/drawer_third_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="383dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
-                    android:layout_marginTop="1dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/z1"
+                    app:layout_constraintBottom_toTopOf="@+id/drawer_third_2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/drawer_music_service_zhu"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_300"
+                android:layout_height="@dimen/dp_400"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_background"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -107,27 +109,34 @@
                     android:layout_height="0.5dp"
                     android:layout_marginTop="10dp"
                     android:background="#373333"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/music_service_textview" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:src="@mipmap/z4"
                     app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/fengexian" />
 
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/z5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -135,11 +144,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/z6"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -147,11 +158,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_4"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/z7"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -159,11 +172,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_5"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+
+                    android:src="@mipmap/z8"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -171,11 +186,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_6"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
+
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/z9"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -185,7 +202,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/drawer_else_zhu"
                 android:layout_width="match_parent"
-                android:layout_height="430dp"
+                android:layout_height="510dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_background"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -212,25 +229,29 @@
                     android:background="#373333"
                     app:layout_constraintTop_toBottomOf="@+id/music_else" />
 
+
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y2"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/fengexian2" />
 
-
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y3"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -238,11 +259,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y4"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -250,11 +273,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_4"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
+
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -262,11 +287,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_5"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y6"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -274,11 +301,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_6"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y7"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -286,51 +315,55 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_7"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y8"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
+
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_6" />
 
                 <androidx.constraintlayout.utils.widget.ImageFilterView
                     android:id="@+id/imageFilterView_else_8"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/y9"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_7" />
 
-                <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/imageFilterView_else_9"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="15dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_7" />
+                <!--                <androidx.constraintlayout.utils.widget.ImageFilterButton-->
+                <!--                    android:id="@+id/imageFilterView_else_9"-->
+                <!--                    android:layout_width="380dp"-->
+                <!--                    android:layout_height="@dimen/dp_45"-->
+                <!--                    android:layout_marginStart="15dp"-->
+                <!--                    android:layout_marginTop="12dp"-->
+                <!--                    android:layout_marginEnd="15dp"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_7" />-->
 
-                <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/imageFilterView_else_10"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="15dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_9" />
+                <!--                <androidx.constraintlayout.utils.widget.ImageFilterButton-->
+                <!--                    android:id="@+id/imageFilterView_else_10"-->
+                <!--                    android:layout_width="380dp"-->
+                <!--                    android:layout_height="@dimen/dp_30"-->
+                <!--                    android:layout_marginStart="15dp"-->
+                <!--                    android:layout_marginTop="12dp"-->
+                <!--                    android:layout_marginEnd="15dp"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_9" />-->
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -338,7 +371,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/four_zhu"
                 android:layout_width="match_parent"
-                android:layout_height="390dp"
+                android:layout_height="470dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round_background"
                 app:layout_constraintTop_toBottomOf="@+id/drawer_else_zhu">
@@ -363,23 +396,29 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_11"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:src="@mipmap/x1"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
 
+
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_21"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x2"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -387,11 +426,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_31"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x3"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -399,11 +440,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_41"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x4"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -411,11 +454,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_51"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x5"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -423,11 +468,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_61"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x6"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -435,11 +482,13 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_71"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x7"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -447,39 +496,44 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/imageFilterView_else_81"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
+                    android:layout_width="380dp"
+                    android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="15dp"
+                    android:src="@mipmap/x8"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_71" />
 
-                <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/imageFilterView_else_91"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="15dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_71" />
+                <!--                <androidx.constraintlayout.utils.widget.ImageFilterButton-->
+                <!--                    android:id="@+id/imageFilterView_else_91"-->
+                <!--                    android:layout_width="380dp"-->
+                <!--                    android:layout_height="@dimen/dp_45"-->
+                <!--                    android:layout_marginStart="15dp"-->
+                <!--                    android:layout_marginTop="12dp"-->
+                <!--                    android:layout_marginEnd="15dp"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+                <!--                    android:src="@mipmap/x7"-->
 
-                <androidx.constraintlayout.utils.widget.ImageFilterButton
-                    android:id="@+id/imageFilterView_else_101"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_30"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="15dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_91" />
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_71" />-->
+
+                <!--                <androidx.constraintlayout.utils.widget.ImageFilterButton-->
+                <!--                    android:id="@+id/imageFilterView_else_101"-->
+                <!--                    android:layout_width="380dp"-->
+                <!--                    android:layout_height="@dimen/dp_45"-->
+                <!--                    android:src="@mipmap/x8"-->
+                <!--                    android:layout_marginStart="15dp"-->
+                <!--                    android:layout_marginTop="12dp"-->
+                <!--                    android:layout_marginEnd="15dp"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@+id/imageFilterView_else_91" />-->
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -492,8 +546,9 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/tuichu"
-                    android:layout_width="146dp"
-                    android:layout_height="46dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/x9"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.498"
@@ -501,7 +556,6 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/dp_300">
+    android:layout_height="260dp">
 
     <TextView
         android:id="@+id/textView17"
@@ -48,14 +48,14 @@
 
     <ImageView
         android:id="@+id/tupian2"
-        android:layout_width="133dp"
-        android:layout_height="142dp"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
         android:layout_marginStart="2dp"
         app:layout_constraintStart_toEndOf="@+id/tupian1"
         app:layout_constraintTop_toTopOf="@+id/tupian1"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/touxiang"
         android:layout_width="51dp"
         android:layout_height="52dp"
@@ -67,8 +67,8 @@
 
     <TextView
         android:id="@+id/mingzi"
-        android:layout_width="75dp"
-        android:layout_height="32dp"
+        android:layout_width="211dp"
+        android:layout_height="31dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
         android:text="白小白"
@@ -80,7 +80,7 @@
         android:id="@+id/laiyuan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="1dp"
         android:text="云村精彩动态"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textSize="10sp"
@@ -99,8 +99,8 @@
 
     <ImageView
         android:id="@+id/tupian1"
-        android:layout_width="133dp"
-        android:layout_height="142dp"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
         android:layout_marginStart="72dp"
         android:layout_marginTop="3dp"
         app:layout_constraintStart_toStartOf="parent"
