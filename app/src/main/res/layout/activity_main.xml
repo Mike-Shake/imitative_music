@@ -6,21 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:fitsSystemWindows="true"
+        >
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
+            android:fitsSystemWindows="true"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:background="@color/boundary_gray"
+            android:background="#E61C1C"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:layout_constraintTop_toTopOf="parent"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:layout_editor_absoluteX="42dp">
+
+            <EditText
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="@dimen/dp_30"
+                android:background="@drawable/round_background1"
+                android:textSize="14dp"
+                android:maxLines="1"/>
+        </androidx.appcompat.widget.Toolbar>
 
         <fragment
             android:id="@+id/nav_host_fragment"

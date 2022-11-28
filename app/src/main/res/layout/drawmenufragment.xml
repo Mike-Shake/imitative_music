@@ -68,7 +68,7 @@
 
                 <androidx.constraintlayout.utils.widget.ImageFilterButton
                     android:id="@+id/drawer_third_1"
-                    android:layout_width="383dp"
+                    android:layout_width="380dp"
                     android:layout_height="@dimen/dp_45"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"

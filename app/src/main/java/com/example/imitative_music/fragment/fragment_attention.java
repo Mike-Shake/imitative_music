@@ -60,19 +60,19 @@ public class fragment_attention extends Fragment {
     }
 
     private void init() {
-        attention_head_class attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_class attention_head_classes = new attention_head_class("雾与晨", R.mipmap.t1);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("乐音乐", R.mipmap.t2);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("快乐南瓜", R.mipmap.t3);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("甜筒指南", R.mipmap.t4);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("_厌烦一切", R.mipmap.t5);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("我的忧伤日记", R.mipmap.t6);
         mlist.add(attention_head_classes);
-        attention_head_classes = new attention_head_class("我的圈子", R.mipmap.radio_widget_icn_new);
+        attention_head_classes = new attention_head_class("嘿嘿嘿", R.mipmap.shizizhuanji);
         mlist.add(attention_head_classes);
 
         dynamic_recyclerview_class dynamic_recyclerview_classes = new dynamic_recyclerview_class("雾与晨的杂货店",
